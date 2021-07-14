@@ -3,7 +3,7 @@ from flask import Flask, request, render_template
 from forms import EmailPasswordForm
 
 app = Flask(__name__)
-app.config["SECRET KEY"] = "ni"
+app.config["SECRET_KEY"] = "ni"
 
 ###
 
